@@ -10,3 +10,37 @@ body {
 h1,h2,h3 {
     font-family: 'Nova Square', cursive;
 }
+
+
+:root {
+    --main-color:darkred ;
+    --secondary-color:#C67F7F;
+    --accent-color:#ececec;
+}
+
+.text-main-color{
+    color: var(--main-color);
+}
+
+.text-secondary-color {
+    color: var(--secondary-color);
+}
+
+.text-accent-color {
+    color: var(--accent-color);
+}
+/* header css */
+
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(white,transparent) ,url(./media/header.jpg);
+
+}
+
+
+@media screen and (min-width:992px){
+    h1 {
+        letter-spacing: 50px;
+    }
+}
