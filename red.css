@@ -32,9 +32,9 @@ h1,h2,h3 {
 /* header css */
 
 .header {
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
-    background-image: linear-gradient(white,transparent) ,url(./media/header.jpg);
+    background-image: linear-gradient(white 10%,transparent) ,url(./media/header.jpg);
 
 }
 
@@ -44,3 +44,8 @@ h1,h2,h3 {
         letter-spacing: 50px;
     }
 }
+
+
+/* navbar  */
+
+
