@@ -35,8 +35,19 @@ h1,h2,h3 {
     height: 90vh;
     background-size: cover;
     background-image: linear-gradient(white 10%,transparent) ,url(./media/header.jpg);
+  
 
 }
+
+.section-2{
+    background-image: url(./media/section-2.png);
+    background-size: cover;
+    height: 650px;
+    margin-top: -630px;
+    
+   
+}
+
 
 
 @media screen and (min-width:992px){
@@ -44,6 +55,12 @@ h1,h2,h3 {
         letter-spacing: 50px;
     }
 }
+
+
+.section-2-second {
+   height: 650px;
+   margin-top: 0px;
+   background-color: var(--accent-color);
 
 
 /* navbar  */
