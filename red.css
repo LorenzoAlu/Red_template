@@ -188,3 +188,18 @@ padding: 4px;
     display: block;
     margin: auto;
     }
+
+/* sezione 8 footer  */
+
+.footer {
+    background-image: url(./media/footer.png);
+   background-position: top 1000px;
+   background-size: cover;
+   background-repeat: no-repeat;
+    height: 300px;
+}
+
+div.quick-list a {
+    text-decoration: none;
+    color: white;
+}
