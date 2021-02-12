@@ -178,3 +178,13 @@ height: 150px;
 padding: 4px;
 }
 
+/* sezione 7  */
+.img-custom-s-7 {
+    border:3px solid darkred ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 4px;
+    display: block;
+    margin: auto;
+    }
