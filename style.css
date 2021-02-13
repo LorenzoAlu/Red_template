@@ -46,12 +46,21 @@ h1,h2,h3 {
     padding: 5px;
 }
 
+/* css per fixare seconda barra  */
+.margin-top-35 {
+    margin-top:40px
+}
+
+
+
+
 /* header css */
 
 .header {
     height: 100vh;
     background-image: linear-gradient(white 10%,transparent) , url(./media/section-2.png) ,url(./media/header.jpg);
     background-size: cover , cover ;
+    background-position: center;
 
 }
 
